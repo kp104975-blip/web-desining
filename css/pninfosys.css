@@ -1,0 +1,53 @@
+nav {
+    background: white;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.menu a {
+    text-decoration: double;
+    color: black;
+    padding: 15px;
+    font-weight: bold;
+}
+
+.box {
+    box-sizing: border-box;
+    border: 1px solid rgb(24, 23, 23);
+    width: 289px;
+    height: 384px;
+    margin: 11PX -14PX;
+    padding: 4px;
+    margin-left: 145PX;
+    float: left;
+
+}
+
+.space {
+    padding: 0 50px;
+
+    text-align: center;
+
+}
+
+.box h4 {
+    color: #34b1f5;
+}
+
+.box h3 {
+    font-weight: bold;
+}
+
+.zz {
+    border: 1px solid #34b1f5;
+   
+}
+footer{
+    background: url();
+    weight: 100%;
+    background-position: center;
+
+}

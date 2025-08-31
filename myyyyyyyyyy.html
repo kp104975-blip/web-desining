@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+            body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f2f2f2;
+    }
+
+    #popup {
+      position: fixed;
+      top: 20%;
+      left: 35%;
+      width: 300px;
+      background-color: #ffffff;
+      border: 2px solid #000080;
+      box-shadow: 0 0 10px rgba(0,0,0,0.5);
+      z-index: 1000;
+      display: none;
+    }
+
+    #popup-header {
+      background-color: #000080;
+      color: white;
+      padding: 8px;
+      font-weight: bold;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    #popup-content {
+      padding: 15px;
+      text-align: center;
+    }
+
+    .btn {
+      margin-top: 10px;
+      padding: 8px 12px;
+      background-color: #0078D7;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+
+    .btn:hover {
+      background-color: #005a9e;
+    }
+
+    .close-btn {
+      background: none;
+      border: none;
+      color: white;
+      font-weight: bold;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+        .a {
+            border: 2px solid white;
+            width: 400px;
+            height: 500px;
+            float: left;
+            margin: 5px;
+            background: white;
+        }
+
+        .b {
+            border: 10px double red;
+            text-align: center;
+            background-color: yellow;
+            font-size: 50px;
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="popup">
+  <div id="popup-header">
+    <span>Special Sale Alert!</span>
+    <button class="close-btn" onclick="closePopup()">X</button>
+  </div>
+  <div id="popup-content">
+    <p>🎉 Get up to <strong>70% OFF</strong> today only!</p>
+    <button class="btn" onclick="window.location.href='https://yourstore.com/sale'">Shop Now</button>
+  </div>
+</div>
+
+<script>
+  function showPopup() {
+    document.getElementById('popup').style.display = 'block';
+  }
+
+  function closePopup() {
+    document.getElementById('popup').style.display = 'none';
+  }
+
+  // Show popup after 3 seconds
+  window.onload = function() {
+    setTimeout(showPopup, 3000);
+  };
+</script>
+
+    <h2 class="b">KRISHNA<span style="color: red;">.com</span></h2>
+    <div class="a" style="margin-left: 100px;">
+        <center>
+            <br>
+            <img src="https://m.media-amazon.com/images/I/71VA2E2ugZL.__AC_SX300_SY300_QL70_FMwebp_.jpg" alt=""
+                width="250" height="250">
+            <br>
+            <br>
+
+            <a href="https://www.amazon.com/Troomi-Dashboard-Transparency-Filtering-Smartphone/dp/B0DD1K6287/ref=sr_1_1_sspa?crid=138MQ8KDCN8MM&dib=eyJ2IjoiMSJ9.v8-v_dYf_IhKGWbz-_aPp7zrmVAiu49Xj9Jlbj9x9q1X8YCepP1Bzu8hKXi05U2Nn5Wc1TqWp2FRPvwzBKEHzY8zrNeYrE_hQLFOAsf4eP_zyVrE0aTbbsfOP6hqTNnqSE-t2aY_fpZKCna7kAcCUX0P10Cd-YNk-aRuKPC0jCeAqHKb-sOrx6EiyhLsXRr4xnaP08lAXbdniNdqDKVF_DSo15di3rDcp22nHhsN6dA.hZK1p0-fK6IbFGMLEqbTl7K98tzJ3mw8PM5ZWVesY48&dib_tag=se&keywords=PHONE&qid=1750499811&sprefix=phone%2Caps%2C521&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"
+                style="background: rgb(250, 250, 250);">Kids Phone, Parental Controls, Live Dashboard w/Text and Image
+                Transparency,
+                GPS Tracking, Content Filtering. 10,000+ Apps, No Contract, Galaxy A15 Smartphone, Activation Fee
+                Required</a>
+            <h4><span style="color: red;">-70%</span> rs1,899.99</h4>
+            <h5 style="margin-top: -20px; color: red;">M.R.P.: <del>6999</del></h5>
+        </center>
+
+    </div>
+
+    <div class="a">
+        <center>
+            <br>
+            <img src="https://m.media-amazon.com/images/I/71x1ELFnzoL._AC_SX679_.jpg" alt="" width="250" height="250">
+            <br>
+            <br>
+            <a
+                href="https://www.amazon.com/LIVELY-Jitterbug-Phones-Smartphone-Seniors/dp/B0CH964JZ8/ref=sr_1_2_sspa?crid=138MQ8KDCN8MM&dib=eyJ2IjoiMSJ9.v8-v_dYf_IhKGWbz-_aPp7zrmVAiu49Xj9Jlbj9x9q1X8YCepP1Bzu8hKXi05U2Nn5Wc1TqWp2FRPvwzBKEHzcfGr7B4fQ76IW1lt1fiBUCb3jApmhVbm5cL8CR_Gkt5h_XL1OrqhtxKHi5aeeO9i2Tf_O7XhmAzErMhsdLqCW2AqHKb-sOrx6EiyhLsXRr4s-dZnhIQm1eRJEsTAx9NaY4SeOrggnhNWqpSHjOh0pA.fkwe58sjPoiP-pnL1Lhh7RcE7H76zkQ_W5vFt7pJYfk&dib_tag=se&keywords=PHONE&qid=1750500593&sprefix=phone%2Caps%2C521&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1">Lively
+                Jitterbug Smart4 Smartphone for Seniors - Cell Phone for Seniors - Not Compatible with Other Wireless
+                Carriers - Must Be Activated with Lively Phone Plan</a>
+            <h4><span style="color: red;">-70%</span> $1,899.99</h4>
+            <h5 style="margin-top: -20px; color: red;">M.R.P.: <del>6999</del></h5>
+        </center>
+
+    </div>
+    <div class="a">
+        <center>
+            <br>
+            <img src="https://m.media-amazon.com/images/I/71KGkQ+KOKL._AC_SX679_.jpg" alt="" width="250" height="250">
+            <br>
+            <br>
+            <a
+                href="https://www.amazon.com/SAMSUNG-Unlocked-Smartphone-Charging-Expandable/dp/B0DLHNWHRF/ref=sr_1_3?crid=138MQ8KDCN8MM&dib=eyJ2IjoiMSJ9.v8-v_dYf_IhKGWbz-_aPp7zrmVAiu49Xj9Jlbj9x9q1X8YCepP1Bzu8hKXi05U2Nn5Wc1TqWp2FRPvwzBKEHzcfGr7B4fQ76IW1lt1fiBUCb3jApmhVbm5cL8CR_Gkt5h_XL1OrqhtxKHi5aeeO9i2Tf_O7XhmAzErMhsdLqCW2AqHKb-sOrx6EiyhLsXRr4s-dZnhIQm1eRJEsTAx9NaY4SeOrggnhNWqpSHjOh0pA.fkwe58sjPoiP-pnL1Lhh7RcE7H76zkQ_W5vFt7pJYfk&dib_tag=se&keywords=PHONE&qid=1750500593&sprefix=phone%2Caps%2C521&sr=8-3&th=1">SAMSUNG
+                Galaxy A16 5G A Series Cell Phone, Unlocked Android Smartphone, Large AMOLED Display, Durable Design,
+                Super Fast Charging, Expandable Storage, US Version, 2025, Blue Black</a>
+            <h4><span style="color: red;">-70%</span> $1,899.99</h4>
+            <h5 style="margin-top: -20px; color: red;">M.R.P.: <del>6999</del></h5>
+        </center>
+
+    </div>
+    <div class="a">
+        <center>
+            <br>
+            <img src="https://m.media-amazon.com/images/I/71fflP-3W4L._AC_SX679_.jpg" alt="" width="250" height="250">
+            <br>
+            <br>
+            <a
+                href="https://www.amazon.com/Tracfone-Motorola-5000mAh-Battery-Sapphire/dp/B0CTW8TXGH/ref=sr_1_4?crid=138MQ8KDCN8MM&dib=eyJ2IjoiMSJ9.v8-v_dYf_IhKGWbz-_aPp7zrmVAiu49Xj9Jlbj9x9q1X8YCepP1Bzu8hKXi05U2Nn5Wc1TqWp2FRPvwzBKEHzcfGr7B4fQ76IW1lt1fiBUCb3jApmhVbm5cL8CR_Gkt5h_XL1OrqhtxKHi5aeeO9i2Tf_O7XhmAzErMhsdLqCW2AqHKb-sOrx6EiyhLsXRr4s-dZnhIQm1eRJEsTAx9NaY4SeOrggnhNWqpSHjOh0pA.fkwe58sjPoiP-pnL1Lhh7RcE7H76zkQ_W5vFt7pJYfk&dib_tag=se&keywords=PHONE&qid=1750500593&sprefix=phone%2Caps%2C521&sr=8-4&th=1">Tracfone
+                | Motorola Moto g Play 2024 | Locked | 64GB | 5000mAh Battery | 50MP Quad Pixel Camera | 6.5-in. HD+
+                90Hz Display | Sapphire Blue</a>
+            <h4><span style="color: red;">-70%</span> $1,899.99</h4>
+            <h5 style="margin-top: -20px; color: red;">M.R.P.: <del>6999</del></h5>
+        </center>
+
+    </div>
+    <div class="a" style="margin-left: 100px;">
+        <center>
+            <br>
+            <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/Stores-Gaming/FinalGraphics/Fuji_Gaming_store_Dashboard_card_1x_EN._SY304_CB564799420_.jpg"
+                alt="" width="250" height="250">
+            <h4>ASUS ROG Strix G16 (2024) Gaming Laptop, 16” ROG Nebula Display 16:10 QHD 240Hz, NVIDIA® GeForce RTX™
+                4070, Intel® Core™ i9-14900HX, 16GB DDR5-5600, 1TB PCIe Gen4 SSD, Wi-Fi 6E, Win 11, G614JIR-AS94</h4>
+            <h4><span style="color: red;">-70%</span> $1,899.99</h4>
+            <h5 style="margin-top: -20px; color: red;">M.R.P.: <del>6999</del></h5>
+        </center>
+
+    </div>
+
+    <div class="a">
+        <center>
+            <br>
+            <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/Stores-Gaming/FinalGraphics/Fuji_Gaming_store_Dashboard_card_1x_EN._SY304_CB564799420_.jpg"
+                alt="" width="250" height="250">
+            <h4>ASUS ROG Strix G16 (2024) Gaming Laptop, 16” ROG Nebula Display 16:10 QHD 240Hz, NVIDIA® GeForce RTX™
+                4070, Intel® Core™ i9-14900HX, 16GB DDR5-5600, 1TB PCIe Gen4 SSD, Wi-Fi 6E, Win 11, G614JIR-AS94</h4>
+            <h4><span style="color: red;">-70%</span> $1,899.99</h4>
+            <h5 style="margin-top: -20px; color: red;">M.R.P.: <del>6999</del></h5>
+        </center>
+
+    </div>
+    <div class="a">
+        <center>
+            <br>
+            <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/Stores-Gaming/FinalGraphics/Fuji_Gaming_store_Dashboard_card_1x_EN._SY304_CB564799420_.jpg"
+                alt="" width="250" height="250">
+            <h4>ASUS ROG Strix G16 (2024) Gaming Laptop, 16” ROG Nebula Display 16:10 QHD 240Hz, NVIDIA® GeForce RTX™
+                4070, Intel® Core™ i9-14900HX, 16GB DDR5-5600, 1TB PCIe Gen4 SSD, Wi-Fi 6E, Win 11, G614JIR-AS94</h4>
+            <h4><span style="color: red;">-70%</span> $1,899.99</h4>
+            <h5 style="margin-top: -20px; color: red;">M.R.P.: <del>6999</del></h5>
+        </center>
+
+    </div>
+    <div class="a">
+        <center>
+            <br>
+            <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/Stores-Gaming/FinalGraphics/Fuji_Gaming_store_Dashboard_card_1x_EN._SY304_CB564799420_.jpg"
+                alt="" width="250" height="250">
+            <h4>ASUS ROG Strix G16 (2024) Gaming Laptop, 16” ROG Nebula Display 16:10 QHD 240Hz, NVIDIA® GeForce RTX™
+                4070, Intel® Core™ i9-14900HX, 16GB DDR5-5600, 1TB PCIe Gen4 SSD, Wi-Fi 6E, Win 11, G614JIR-AS94</h4>
+            <h4><span style="color: red;">-70%</span> $1,899.99</h4>
+            <h5 style="margin-top: -20px; color: red;">M.R.P.: <del>6999</del></h5>
+        </center>
+
+    </div>
+
+
+
+</body>
+
+</html>

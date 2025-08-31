@@ -1,0 +1,315 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+nav {
+    background: white;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    margin-top: 0px;
+    margin-left: 120px;
+    position: fixed;
+    z-index: -1px;
+    top: 0px;
+    
+}
+
+nav img {
+    width: 55px;
+}
+
+.menu a {
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: black;
+    margin-left: 31px;
+
+}
+
+.menuu {
+
+    margin-left: 800px
+}
+
+.menuu a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    margin: 30px;
+}
+
+.menuu button {
+    margin-left: 15px;
+    text-decoration: none;
+    background-color: white;
+    width: 79px;
+    height: 36px;
+    border-radius: 50px;
+
+}
+
+.img {
+    width: 100%;
+    height: 625px;
+    margin-top: 5px;
+
+}
+
+.imga img {
+    width: 750px;
+    height: 625px;
+    margin-left: 202.5px;
+    float: left;
+}
+
+.imgb {
+    width: 750px;
+    height: 625px;
+    margin-left: 952.5px;
+    background-color: #f7f0e4;
+
+}
+
+.im {
+    width: 720px;
+    height: 625px;
+    padding: 32px 48px;
+}
+
+.i {
+    width: 517.9px;
+    height: 327.18px;
+    margin: 93px;
+    margin-top: 119px;
+}
+
+.i h1 {
+    text-align: center;
+    font-size: 45px;
+}
+
+.i h3 {
+    text-align: center;
+    font-size: 25px;
+}
+
+.i button {
+    /* margin-left: 15px; */
+    text-decoration: none;
+    background-color: #f7f0e4;
+    width: 133px;
+    height: 36px;
+    border-radius: 50px;
+    font-size: 25px;
+    margin-left: 190px;
+}
+
+.see {
+    width: 750px;
+    height: 625px;
+
+    background-color: #32462f;
+}
+
+.seei {
+    width: 517.9px;
+    height: 327.18px;
+    margin: 93px;
+    margin-top: 47px;
+    padding-top: 150px;
+}
+
+.seei h1 {
+    text-align: center;
+    font-size: 50px;
+    color: white;
+
+}
+
+.seei h3 {
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+
+.seei button {
+    margin-left: 15px;
+    text-decoration: none;
+    background-color: #32462f;
+    width: 180px;
+    height: 36px;
+    border-radius: 50px;
+    font-size: 25px;
+    margin-left: 190px;
+    color: white;
+    border-color: white;
+}
+
+.cup img {
+    width: 750px;
+    height: 625px;
+    margin-top: 47px;
+
+}
+
+.pl {
+    width: 750px;
+    height: 625px;
+    margin-left: 202.5px;
+    float: left;
+
+}
+
+.coke {
+    width: 100%;
+    height: 420px;
+    margin-top: 40px;
+}
+
+.coke1 img {
+    width: 750px;
+    height: 420px;
+    margin-left: 202.5px;
+    float: left;
+}
+
+.coke2 {
+    width: 750px;
+    height: 420px;
+    margin-left: 952.5px;
+    background-color: #d1d1aa;
+}
+
+.coke3 {
+    width: 720px;
+    height: 420px;
+    padding: 32px 48px;
+}
+
+.coke4 {
+    width: 517.9px;
+    height: 122.1px;
+    margin: 93px;
+    margin-top: 119px;
+}
+
+.coke4 h1 {
+    text-align: center;
+    font-size: 25px;
+}
+
+.coke4 h3{
+    text-align: center;
+    font-size: 17px;
+}
+
+.coke button {
+    
+    text-decoration: none;
+    background-color: #d1d1aa;
+    width: 133px;
+    height: 36px;
+    border-radius: 50px;
+    font-size: 25px;
+    margin-left: 190px;
+}
+
+.seee{
+        width: 750px;
+    height: 625px;
+
+    background-color: #006242;
+}
+
+.text{
+    width: 1905px;
+    height: 189.94px;
+}
+
+.text1{
+    width: 1440px;
+    height: 189.94;
+    padding: 32px 0px;
+    margin-left: 232.5px;
+    
+}
+
+.text2{
+    width: 1042px;
+    height: 125.94px;
+    margin-top: 25px;
+
+}
+
+.text2 p{
+    margin-left: 396.93px;
+    text-align: center;
+    font-size: 16px;
+}
+
+footer{
+    width: 1925px;
+    height: 934.5px;
+    padding: 24px 0px;
+}
+
+.down{
+    width: 1440px;
+    height: 388.5px;
+    display: flex;
+    margin-left: 232.5px;
+}
+
+.about{
+    width: 190px;
+    height: 388.5px;
+}
+
+.about h2{
+    margin-bottom: 24px;
+}
+
+.about h3{
+    margin-bottom: 8px;
+    padding: 8px 0px;
+}
+
+.about1{
+    width: 190px;
+    height: 388.5px;
+    margin-left: 35px;
+}
+
+.about1 h2{
+    margin-bottom: 24px;
+    font-size: 20px;
+}
+
+.about1 h3{
+    margin-bottom: 8px;
+    padding: 8px 0px;
+    font-size: 15px;
+}
+
+.down ul{
+    width: 1445px;
+    height: 51px;
+    margin-right: -5px;
+}
+
+ul a{
+    font-size: 40px;
+    color: black;
+    margin: 0px 10px;
+}
+
+ul h3{
+    margin-bottom: 4px;
+    padding: 8px 0px;
+}
